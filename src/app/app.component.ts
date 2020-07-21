@@ -19,9 +19,9 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.analytics.trackPageViews();
     this.seoService.trackCanonicalChanges();
-    this.addConsole();
+    this.addConsoleLog();
   }
-  addClose() {
-    console.log("demo for merge conflicts");
+  addConsoleLog() {
+    console.log("add console");
   }
 }
