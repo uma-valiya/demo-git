@@ -20,9 +20,5 @@ export class AppComponent implements OnInit {
     this.analytics.trackPageViews();
     this.seoService.trackCanonicalChanges();
     console.log("demo for merge conflicts - updated");
-    this.addConsoleLog();
-  }
-  addConsoleLog() {
-    console.log("add console");
   }
 }
